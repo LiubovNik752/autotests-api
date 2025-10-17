@@ -23,7 +23,7 @@ login_response_data = login_response.json()
 print('Login data:', login_response_data)
 
 get_user_headers = {
-    "AUthorization": f"Bearer {login_response_data["token"]["accessToken"]}"
+    "Authorization": f"Bearer {login_response_data["token"]["accessToken"]}"
 }
 get_user_response = httpx.get(
     f"http://localhost:8000/api/v1/users/{create_user_response_data["user"]["id"]}",
