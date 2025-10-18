@@ -16,7 +16,6 @@ create_user_request = CreateUserRequestDict(
 )
 create_user_response = public_users_client.create_user(create_user_request)
 
-# Инициализируем клиенты
 authentication_user = AuthenticationUserDict(
     email=create_user_request['email'],
     password=create_user_request['password']
@@ -24,7 +23,6 @@ authentication_user = AuthenticationUserDict(
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
-# Загружаем файл
 create_file_request = CreateFileRequestDict(
     filename="image.jpeg",
     directory="courses",
@@ -33,7 +31,6 @@ create_file_request = CreateFileRequestDict(
 create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
-# Создаем курс
 create_course_request = CreateCourseRequestDict(
     title="Python",
     maxScore=100,
