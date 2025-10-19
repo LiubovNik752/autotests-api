@@ -15,7 +15,7 @@ class CourseSchema(BaseModel):
     max_score: int = Field(alias="maxScore")
     min_score: int = Field(alias="minScore")
     description: str
-    previewFile: FileSchema
+    preview_file: FileSchema = Field(alias="previewFile")
     estimated_time: str = Field(alias="estimatedTime")
     created_by_user: UserSchema = Field(alias="createdByUser")
 
@@ -24,7 +24,9 @@ class GetCoursesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка курсов.
     """
-    userId: str
+    model_config = ConfigDict(populate_by_name=True)
+
+    user_id: str = Field(alias="userId")
 
 
 class CreateCourseRequestSchema(BaseModel):
