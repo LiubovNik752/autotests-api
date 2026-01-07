@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8251c590-55b5-4534-ac57-9650449cf534' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjM0OjQ5LjE4NzU1MSIsInVzZXJfaWQiOiI4ZWI2MmYwNi1hYzJlLTRiOTQtODM1Ny1mOGIxYTA3MzRiMWYifQ.7pS4TKv5Wfzf31tGDkchyV2TquigEyRp6_Zv-8klL1Y' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Begin work political training.","maxScore":68,"minScore":26,"orderIndex":52,"description":"Learn hundred hear knowledge show. Action detail well tough environment company attention. Explain result usually future away avoid.","estimatedTime":"8 weeks"}'
