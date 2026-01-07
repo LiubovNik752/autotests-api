@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE1OjEzOjI2LjM4OTIyNiIsInVzZXJfaWQiOiI5OGU3YTAzYS1lNWNlLTQwZTAtYmEyMy00MWFjNjZmOWM2N2YifQ.1SWws3nj9EUQVyRabc9bcl9_CYCMp4KFjfdtdNH1gaE' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create anything heavy few.","maxScore":50,"minScore":3,"description":"Create him table worker. Require number and party color. Join between sort result least. Into find face girl live.","estimatedTime":"10 weeks","previewFileId":"4659be1a-7b89-4a41-9e11-069d685a02b2","createdByUserId":"98e7a03a-e5ce-40e0-ba23-41ac66f9c67f"}'

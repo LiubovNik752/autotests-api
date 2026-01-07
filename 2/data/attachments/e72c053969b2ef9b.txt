@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE1OjEzOjI3Ljg2NTUwMyIsInVzZXJfaWQiOiI4NmRmMDdlYi1kYTBkLTRmZjYtODc5Mi0wNDNhZWVjOTU2OTAifQ.jKaKn6u1GfRBeez_5uIypmI_yeA0cikS_C3j8fRrshw' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular any him maybe especially.","maxScore":89,"minScore":9,"description":"Generation family last sort. One describe until when indeed imagine. To indeed may call significant food.","estimatedTime":"2 weeks","previewFileId":"26bf2b76-7c00-4475-98a1-9a107291d957","createdByUserId":"86df07eb-da0d-4ff6-8792-043aeec95690"}'

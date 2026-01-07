@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE1OjEzOjI3LjI4NDkyOCIsInVzZXJfaWQiOiJlMzY4NDllNy0zMzk0LTQxNTEtYmM5Mi05Y2U2ZTBkNDM4YWIifQ.-3DapPTZlkhewVP5bIP3jCx3i7URGDi50TmK5iTtphs' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question cold remember expert keep up executive.","maxScore":66,"minScore":2,"description":"Around price great small daughter will local especially. How food me play management moment.\nGeneral then remain become sister. Entire guy government ball beautiful. Bad body contain organization.","estimatedTime":"8 weeks","previewFileId":"318aa80a-0110-43f0-9e13-a742d2671da9","createdByUserId":"e36849e7-3394-4151-bc92-9ce6e0d438ab"}'

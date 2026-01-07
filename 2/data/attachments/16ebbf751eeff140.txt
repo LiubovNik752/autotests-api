@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/63c72475-5e40-469a-86b2-c17a71498cdf
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/63c72475-5e40-469a-86b2-c17a71498cdf
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:58 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 63c72475-5e40-469a-86b2-c17a71498cdf
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Man house easy look body.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to c75afa12-ce8c-4c48-95ee-430da8e41d56
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 90
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Long pressure show assume employee our. Even enter grow capital. Onto hospital return pretty art.
+Benefit point call your shoulder table today worker. With if action between.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

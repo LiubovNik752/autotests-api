@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE1OjEzOjI4LjQ1MDcwNiIsInVzZXJfaWQiOiJkMDM2ODY0NC02MGQwLTRlMjgtOTJiOS01MzE2MzMyNDU1NzgifQ.YdMjt4mrEow8ZRkY-XvOuB3yzCaYCGEOXn7j1aAiqC8' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whatever have need skin another leg.","maxScore":78,"minScore":27,"description":"Quickly fear save discussion sister environmental record they. Nothing middle debate matter and. Field inside want go.","estimatedTime":"9 weeks","previewFileId":"2923942f-fc21-4d8b-94aa-de308ca0b4c3","createdByUserId":"d0368644-60d0-4e28-92b9-531633245578"}'

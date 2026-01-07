@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE1OjEzOjI5LjYyNTkwMiIsInVzZXJfaWQiOiJiMjhhNWI4NC1kNGU4LTRiOTAtOTVhZi02YWNkYzRiOTIxZTYifQ.hVj1GUudQXsawwd8xyR1njOlp0IcbLE79c_MMvyfpUo' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man house easy look body.","courseId":"c75afa12-ce8c-4c48-95ee-430da8e41d56","maxScore":64,"minScore":17,"orderIndex":90,"description":"Long pressure show assume employee our. Even enter grow capital. Onto hospital return pretty art.\nBenefit point call your shoulder table today worker. With if action between.","estimatedTime":"5 weeks"}'
