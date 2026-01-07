@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQwOjI2LjMyNTg1OCIsInVzZXJfaWQiOiI2M2I3MjUzNy04OWRhLTRmMDAtYjMxNC1hN2JhMzJlNjI0OWUifQ.6MH8XwyLqpH_RMOVU2WbtilMLhQ3nWO2kC58FacOeh0' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Put test need in.","maxScore":91,"minScore":21,"description":"Such ability style knowledge person better military. Hard close country resource life. Party skin particularly create author.","estimatedTime":"3 weeks","previewFileId":"50f9d1ba-575f-4c19-91f9-3119b30d964e","createdByUserId":"63b72537-89da-4f00-b314-a7ba32e6249e"}'

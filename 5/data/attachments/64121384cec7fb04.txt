@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ff0d331-b9ac-4f42-b046-7fca881d6e52' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQwOjI0LjQ5OTA5OSIsInVzZXJfaWQiOiIzODhjZjg5OC0yN2YxLTRiYTItYWVlMC1iMzQxMzUzZjk5YTMifQ.KwaMwuyRBtPZ_caaQq_XxaoaQ21LZqFMzcHiYqBQEIs' \
+  -H 'content-length: 236' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available care drive guess list bar country.","maxScore":84,"minScore":2,"description":"Mouth well lawyer main. Fast back believe trade. Oil stand court discussion.\nEvidence plan middle fine treat.","estimatedTime":"3 weeks"}'
