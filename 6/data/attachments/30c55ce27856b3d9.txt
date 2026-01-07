@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ2OjMwLjI5ODAyMiIsInVzZXJfaWQiOiIyM2FmMDFiYy04YzJkLTQ4N2ItYjBhNi1kNjE0NzcyMTZjN2QifQ.zms0n_Ad0InWzrza7SlD6eZLRNz_4T2i5pTW257GOlM' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fine affect by time health send send more.","courseId":"2fb338d4-3d5f-4774-a722-a1c6c7eb7cb6","maxScore":80,"minScore":6,"orderIndex":8,"description":"Part star cold official list security. Level sport ago together happen artist team. Human type partner suffer pattern.\nTax plan outside popular here another small. Real leader friend force.","estimatedTime":"10 weeks"}'

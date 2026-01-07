@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2c58278d-548c-4d4d-8bf7-b92e2332b270' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ2OjI5LjEzOTUyMiIsInVzZXJfaWQiOiIyN2NmYzAzMC02NTMzLTQ1MGUtODEzZC0xODNkOGEwY2RkN2IifQ.aEUgYv6RF9aNGvkvc0RSzC_g3ytThyeSA_Bv9AX7mNo' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Control stage loss well.","maxScore":71,"minScore":6,"orderIndex":11,"description":"Look beat support whom play. Movement determine miss still market hospital.\nBoy talk size especially majority model focus. End huge amount nearly parent rate.\nAbility money baby exist.","estimatedTime":"8 weeks"}'

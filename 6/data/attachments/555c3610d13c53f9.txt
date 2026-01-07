@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ2OjI3Ljk1NDAxOSIsInVzZXJfaWQiOiI4MWZkNmZiMi04Nzg5LTQ2YzEtYTIzYi05OWY1Zjk2YTU2MmQifQ.ESsyKcIa3I5OPql0KLya2FJ7pXcarMCtT8MC1bTUWS4' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Position since hair program church.","maxScore":56,"minScore":26,"description":"Threat magazine free fear. Mention painting service poor in college. Threat receive oil again network art worker. Source who billion go anyone.","estimatedTime":"1 weeks","previewFileId":"576cfa61-0efc-4786-a245-714bcfa50c4e","createdByUserId":"81fd6fb2-8789-46c1-a23b-99f5f96a562d"}'
