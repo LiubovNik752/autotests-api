@@ -84,8 +84,8 @@ jobs:
             cp -r gh-pages-temp/history/* allure-history/ || true
           fi
           rm -rf gh-pages-temp
-          continue-on-error: true
-          if: always()
+        continue-on-error: true
+        if: always()
 
       # 11. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
