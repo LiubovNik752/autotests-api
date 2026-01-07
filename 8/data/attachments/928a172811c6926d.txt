@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Newspaper government might election explain employee.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 71c971ca-53fb-474f-a5ab-3facc84b28a3
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 69
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Hour response soon film Republican with huge. Better near administration sense usually.
+Politics story history near effect. Analysis energy protect assume father. Bring social must.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjI1LjYwOTE0NCIsInVzZXJfaWQiOiJhNTYwNzQ4Yy1hMGRkLTQ2NTktYjEyZC01Nzg0YzAxODc1ZmEifQ.PH8RXslR7NXYGL74xP5HPxQv3DkyB3jAPJK2u6Pqivk' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience lay there Congress.","maxScore":74,"minScore":16,"description":"Degree just available baby pull. Concern need whose get society. General blue dream next eight.\nHe born ten away southern. East foot while goal card culture guess.","estimatedTime":"5 weeks","previewFileId":"bcbdf192-b931-4ba3-ad9d-3fbc505593f4","createdByUserId":"a560748c-a0dd-4659-b12d-5784c01875fa"}'

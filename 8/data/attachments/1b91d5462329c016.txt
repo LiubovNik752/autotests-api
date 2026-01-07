@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjI0LjQyNzcxMSIsInVzZXJfaWQiOiJmNTliMGFlMy1mZGJlLTQzNzAtOTAyMi02NTY4ODAyMTQ2ZDYifQ.FzissjJxkjycCAPoHBknLrNiGvjTuPivyKpkcowg-2A' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Close road military police.","maxScore":91,"minScore":16,"description":"Style from join north stand leg. Tv official try else win two. Director coach ask.\nAsk music behavior collection. Treat child financial democratic throw. Very year bed community.","estimatedTime":"3 weeks","previewFileId":"cc9f9133-a270-469e-a5b0-eb13b9855929","createdByUserId":"f59b0ae3-fdbe-4370-9022-6568802146d6"}'

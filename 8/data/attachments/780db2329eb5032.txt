@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjI3Ljg0MDcyNyIsInVzZXJfaWQiOiIxNTAyODI1Zi1kYWVmLTRmYTItYjZjZS01NzczZTQwNzU5YzMifQ.R-2rZfrviWqJaAbI0TAOfWctiLme21Rg8BJEcpfl84U' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop threat while wait everything leave return whose.","courseId":"4cff4295-7248-44c1-b863-db614bc7da46","maxScore":75,"minScore":18,"orderIndex":95,"description":"Opportunity four forget growth value rock yes cell. Remember suffer after specific evening edge.","estimatedTime":"1 weeks"}'

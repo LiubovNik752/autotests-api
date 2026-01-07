@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjI3LjI4MTE0NCIsInVzZXJfaWQiOiI2OGFjNGY2ZC02MTlhLTRjZDktYmJiZC03NDZlNjYzZGFlZTYifQ.aEubD7cuerUsr33G-WSdEL8xmhoLsXx2qEweaFYBIP8' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Music participant skill ago age.","courseId":"2425de0c-e7ae-449b-8999-cc41751198b7","maxScore":83,"minScore":21,"orderIndex":87,"description":"Short deal commercial fast police center. Experience boy key push along bar. Fact smile section outside less yes wide.","estimatedTime":"2 weeks"}'

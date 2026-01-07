@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjI2LjE2OTY0MiIsInVzZXJfaWQiOiJiMTY0ZjBiYy03YmE4LTQ0ZGMtYWUwOC0zMzQ4MjQ3ZmY1ZGUifQ.SXOxKEZsVyP9AxPbgd6qAxCL6ZnUe_ySgpumdTVqG6k' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car standard current recent who interview each so.","courseId":"669b5260-6109-46ad-bb0c-cf40525a6575","maxScore":73,"minScore":5,"orderIndex":27,"description":"Protect recognize most. Run teach college without. Whose newspaper region visit get one hair.\nTable side smile bed. Specific offer set left environment true issue.","estimatedTime":"2 weeks"}'

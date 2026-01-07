@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjIzLjg2NjA0MiIsInVzZXJfaWQiOiJkM2U0ZTViYy0yNGY1LTQzMDctYmY5Yi0zYWUyNjEzNTdkN2IifQ.f1FMwhQiuTQ-hXvLiaVUqkmlYkoUooKks3g1a0sEoVo' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear identify me dream culture chair.","maxScore":55,"minScore":12,"description":"Able deal impact evidence player simply. Concern kind subject movement change machine. Perhaps eight art development modern any task.","estimatedTime":"6 weeks","previewFileId":"9faf2bf1-cfc7-456f-80fb-2e0236e22681","createdByUserId":"d3e4e5bc-24f5-4307-bf9b-3ae261357d7b"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1ea0c2c2-0aaa-498a-8b2e-22883cdf25b2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE3OjA5OjIzLjg2NjA0MiIsInVzZXJfaWQiOiJkM2U0ZTViYy0yNGY1LTQzMDctYmY5Yi0zYWUyNjEzNTdkN2IifQ.f1FMwhQiuTQ-hXvLiaVUqkmlYkoUooKks3g1a0sEoVo' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Surface matter full place ever not.","maxScore":55,"minScore":15,"description":"Bill space life let certainly sing always. Scene occur smile worker worry.\nFront parent since crime service. Attack good night computer.","estimatedTime":"2 weeks"}'
