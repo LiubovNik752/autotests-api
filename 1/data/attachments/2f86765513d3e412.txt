@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDEzOjA2OjEzLjQwMDQwNyIsInVzZXJfaWQiOiJiM2ZmNDU0MC00NDAzLTQxNGItOGY3ZC04YzcyZjExZTRiY2YifQ.QvCizKfCP9aLXHbQps_-DscmdHAg8R2bMdXp6L-Xmuk' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent paper develop area.","maxScore":89,"minScore":29,"description":"Travel should president reveal. Use onto while best somebody add current try.\nWeight worry explain room size might. Hope entire sell win approach. There forget vote professional.","estimatedTime":"2 weeks","previewFileId":"1fdba5ff-aab1-4a26-9b4d-175d5bb6df88","createdByUserId":"b3ff4540-4403-414b-8f7d-8c72f11e4bcf"}'
