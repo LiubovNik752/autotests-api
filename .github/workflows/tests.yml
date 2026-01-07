@@ -77,12 +77,15 @@ jobs:
           path: allure-results/
       # 10. Шаг для получения истории отчётов Allure, если она существует
       - name: Get Allure history
-        uses: actions/checkout@v6  # Опять клонируем репозиторий, чтобы получить историю отчётов
-        if: always()  # Всегда выполняем, независимо от успеха или неудачи предыдущих шагов
-        continue-on-error: true  # Если здесь возникнет ошибка, workflow всё равно продолжит выполнение
-        with:
-          ref: gh-pages  # Указываем ветку gh-pages для получения отчётов
-          path: gh-pages  # Указываем путь для сохранения отчётов
+        run: |
+          mkdir -p allure-history
+          git clone -b gh-pages --single-branch --depth 1 https://github.com/${{ github.repository }}.git gh-pages-temp || echo "No gh-pages branch yet"
+          if [ -d "gh-pages-temp/history" ]; then
+            cp -r gh-pages-temp/history/* allure-history/ || true
+          fi
+          rm -rf gh-pages-temp
+          continue-on-error: true
+          if: always()
 
       # 11. Шаг для генерации и отображения отчёта Allure
       - name: Generates Allure Report with history
