@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ5OjIwLjQwMTQyMyIsInVzZXJfaWQiOiI3MWZjMThlNy01OWMxLTQwMGYtYWM1NC0wM2M1YzMzNDVkYjUifQ.WH7DHldSfdxwCiwOfK-Iim3r904EUhh95w5PhZjaA-U' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List issue hold skin tough beautiful body.","maxScore":63,"minScore":27,"description":"Full rise hold together number answer any throw. Young school specific avoid. Yard wear around improve power region from.\nBag discussion fight method produce. Leave low wind director better.","estimatedTime":"8 weeks","previewFileId":"e3792b56-92c5-4f85-a0e6-b228a5073d68","createdByUserId":"71fc18e7-59c1-400f-ac54-03c5c3345db5"}'

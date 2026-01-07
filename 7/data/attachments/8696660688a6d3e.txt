@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=b001e56d-2a35-4cb6-a338-e199b5d059b8
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=b001e56d-2a35-4cb6-a338-e199b5d059b8
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:126 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:71 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:58 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to d6d9137b-4ea5-4aad-9566-29dffa11ab8c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Really old join air address worry join.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to b001e56d-2a35-4cb6-a338-e199b5d059b8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Organization ago start believe. Head alone production increase wife majority guess soldier.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

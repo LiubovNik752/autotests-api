@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:98 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Girl accept high analysis expert.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 1
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Forward whole mind season staff contain. Bill on late whom room test. Must add local development final.
+Identify government enjoy charge effect argue mission. Including save a benefit method ten me.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file.id" equals to fa9320f3-9b4b-445c-a0f4-e1f4b9fa9cc0
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user.id" equals to d404a89d-3912-4f47-b1da-eb2ed4b59d00
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

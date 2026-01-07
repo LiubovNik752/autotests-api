@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ5OjIxLjMwMDY4MCIsInVzZXJfaWQiOiI5YWU0OTUwYy01NTMyLTQ5OTgtYjAxZS02MzQ2YWQ0Y2MwMzAifQ.opgUxGrL1cwfpsnAOY8d2dK5WnEGoS7OzamLwQEumAw' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe four can everyone cut science sell special.","maxScore":93,"minScore":10,"description":"Life physical old real. None no community decide foot model before someone.\nRule research significant activity can. Strategy another and beautiful. Experience before green field tough within goal.","estimatedTime":"1 weeks","previewFileId":"8861b09c-4e0d-4138-aefb-82d45e0be88e","createdByUserId":"9ae4950c-5532-4998-b01e-6346ad4cc030"}'

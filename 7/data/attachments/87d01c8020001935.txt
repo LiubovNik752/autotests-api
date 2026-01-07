@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ5OjIxLjMwMDY4MCIsInVzZXJfaWQiOiI5YWU0OTUwYy01NTMyLTQ5OTgtYjAxZS02MzQ2YWQ0Y2MwMzAifQ.opgUxGrL1cwfpsnAOY8d2dK5WnEGoS7OzamLwQEumAw' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank address you notice include.","courseId":"97d661dd-7c68-4fd2-b313-04eeb77f8a3d","maxScore":55,"minScore":17,"orderIndex":84,"description":"Reveal keep consumer find daughter magazine report. Allow nearly play certain contain within draw.\nOnce never east leg scientist. Return law between. Day down also tough possible almost money.","estimatedTime":"10 weeks"}'

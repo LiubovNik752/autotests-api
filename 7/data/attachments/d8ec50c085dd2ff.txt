@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTA3VDE2OjQ5OjIwLjEyNzE5MSIsInVzZXJfaWQiOiJkNDA0YTg5ZC0zOTEyLTRmNDctYjFkYS1lYjJlZDRiNTlkMDAifQ.CRpRC_GQbgQkKX42SMDralJcn2nWJqHPWhRY079oZZ4' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl accept high analysis expert.","maxScore":56,"minScore":1,"description":"Forward whole mind season staff contain. Bill on late whom room test. Must add local development final.\nIdentify government enjoy charge effect argue mission. Including save a benefit method ten me.","estimatedTime":"7 weeks","previewFileId":"fa9320f3-9b4b-445c-a0f4-e1f4b9fa9cc0","createdByUserId":"d404a89d-3912-4f47-b1da-eb2ed4b59d00"}'
