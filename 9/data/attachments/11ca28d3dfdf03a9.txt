@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjA1OjMwLjEwMDQxNiIsInVzZXJfaWQiOiI0ZDFmM2RhMC1iZjg3LTQ0MDAtYmNlYi05NWViODgxNDEwOWQifQ.oZdoE9_P4q5zneMbmj7tD0cxyewaJikMERtyqzGgIwo' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass attack policy citizen up.","maxScore":64,"minScore":2,"description":"Various position area about white sure. Whatever above body. Sure high nature move behavior.\nMinute education growth serve clearly. Region senior music wrong tend whatever along.","estimatedTime":"4 weeks","previewFileId":"bb40f8a8-f96a-4061-95f1-bd595d99e875","createdByUserId":"4d1f3da0-bf87-4400-bceb-95eb8814109d"}'

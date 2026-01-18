@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3500f74a-5622-4e5e-b923-d7d69e457e01' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjA1OjI4LjI5NDY1NyIsInVzZXJfaWQiOiIyOWNjMDc3ZS1lODlhLTRjNjctYWI4My01MTc2ODlkNDhmZDYifQ.QjRUZMOzVeo9Pt9_KXlRhhVPGDc6BlRq6iQ9b3KeUEk' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Walk discover young significant radio process.","maxScore":99,"minScore":15,"description":"Hotel rest which your push model. Speak yourself look well thought Mrs country. Night event night vote check church.\nKey easy three pressure name technology. Campaign expect ask road piece.","estimatedTime":"8 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjA1OjMxLjgzODE5OCIsInVzZXJfaWQiOiI1ZTczYTc0MS0yMGFiLTQ3NjUtYWEyMS1lNTMwMDhmNDVkODMifQ.-6Ef8hIriMavedWerEvvog5fS4u6nSkjiwxn8ZcLs-E' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional something suffer way imagine.","courseId":"259f8f44-297b-45c2-9b4a-60911cc5b118","maxScore":54,"minScore":29,"orderIndex":50,"description":"Discuss executive chair report various argue describe. Firm account special sound wonder read represent company.\nFront such marriage cultural set. Issue statement either color poor.","estimatedTime":"4 weeks"}'

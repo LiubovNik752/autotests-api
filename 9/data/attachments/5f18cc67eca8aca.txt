@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjA1OjI4Ljg5MTkwNCIsInVzZXJfaWQiOiI4M2UzMzdiMS0xNTMwLTRiNzQtYmQzOC05MjIzZDgyMjM2YzQifQ.SNkiCsWsb_Duko0jHquZUwgsaP9s3aL_f_qMwHSVgws' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become test half space.","maxScore":66,"minScore":16,"description":"Happen contain financial easy. Marriage commercial travel physical.\nMachine marriage white grow. Whether report college this learn practice agent never. Herself become figure now.","estimatedTime":"5 weeks","previewFileId":"e5be334c-0c08-4c39-a463-c3c38861ddc8","createdByUserId":"83e337b1-1530-4b74-bd38-9223d82236c4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjA1OjI5LjUxOTIyNCIsInVzZXJfaWQiOiJjYTdiMGZhZS0yZjhiLTQ3ZWQtOTNjMi0yM2U4NzMzZTg4MTUifQ.UBZUHKQYnkG6LuxX34fWjiKjgcrCnHt1JDPPguas5DQ' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recognize organization material cell.","maxScore":68,"minScore":30,"description":"Body not sport once cut. Nearly officer enough night.\nAvoid week say education far activity produce. Man with big remain benefit.","estimatedTime":"3 weeks","previewFileId":"786d4913-3281-4e21-93b7-05209a6b6109","createdByUserId":"ca7b0fae-2f8b-47ed-93c2-23e8733e8815"}'
