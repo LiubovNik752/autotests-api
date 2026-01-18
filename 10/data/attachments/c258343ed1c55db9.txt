@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/2a657730-51ca-40bc-affe-bb7d3c6a5eed' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQ1LjQwNzQ5NSIsInVzZXJfaWQiOiI0NWQ0Nzg2Zi04NDgzLTRiMjgtODY3NS04OTJhZTNmYzNlNWIifQ._J3KbiHqn1S1BVLNioTq0IdeRpsYdER6ogTqkmboWcg' \
+  -H 'content-length: 280' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling range way want situation.","maxScore":89,"minScore":9,"orderIndex":66,"description":"Receive sea charge manager. Physical fill computer message quality price marriage. North job image thing. Spend deep per cultural nation road garden.","estimatedTime":"5 weeks"}'

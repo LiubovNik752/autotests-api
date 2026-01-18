@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b725b6a5-f3b3-485d-a22b-e7f302616330' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQyLjcyODkyMCIsInVzZXJfaWQiOiIzZWU1ODdhMC0zYmEwLTQwYWUtODAzOS0yOWQxZjc1ZDg4MWUifQ.R0ZGnA4GKuodxl6aC_02JNSR4o_PfFizIaS3Sj2oVs8' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut fact wife sometimes.","maxScore":56,"minScore":6,"description":"Study plan product other girl smile enter. Seven father continue cell give against minute. Agent fish body skin.","estimatedTime":"4 weeks"}'

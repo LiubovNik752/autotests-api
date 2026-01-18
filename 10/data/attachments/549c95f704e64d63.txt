@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQ0LjQ4NDQ3MiIsInVzZXJfaWQiOiIzYTc5YTZhYS01NmVkLTQ0N2UtOWFiZS0wNjQ1MTQ4ZGVlNWUifQ.6lRU-4t7th6LrSa0rR_hbDX9z6sqAVaEj1DOqLaqCK0' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Response both radio late group.","maxScore":50,"minScore":13,"description":"Produce its figure build. Writer personal truth occur receive way next black. Bill now environment exist believe start catch. College quality least best.","estimatedTime":"1 weeks","previewFileId":"fdc25ea7-3550-4c97-89d5-3a8c5a05326b","createdByUserId":"3a79a6aa-56ed-447e-9abe-0645148dee5e"}'

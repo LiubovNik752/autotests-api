@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQzLjMxNzE3MyIsInVzZXJfaWQiOiJmNWEyY2Y1NC03ODg2LTQyNDAtOTliOS0zODA4ZTVkZjNiMzUifQ.lgXX5hIb91-IAKdIryp5s5AZ-u_KeEBTaRtGEKBUDFA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring of hit newspaper history water.","maxScore":89,"minScore":17,"description":"Partner authority general charge southern clear. Agency time him let red. Explain another although. People plan read those national institution along professional.","estimatedTime":"9 weeks","previewFileId":"7e38bb18-9cf1-4100-91f2-2e044ec88558","createdByUserId":"f5a2cf54-7886-4240-99b9-3808e5df3b35"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/5364e1f6-eb41-4b3f-9f35-7a4b6623b4c7
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/5364e1f6-eb41-4b3f-9f35-7a4b6623b4c7
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:45 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:58 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 5364e1f6-eb41-4b3f-9f35-7a4b6623b4c7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Give business reality particular.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 63dd37b5-6ed7-4f90-8331-80c0b8f176a7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 69
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Charge fall live different dog figure. Thought today wish company cold. Reduce among expect bank.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

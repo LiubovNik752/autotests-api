@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQ0LjIwODY5NSIsInVzZXJfaWQiOiJmMTZjMzZkNy0yOGFmLTQxMzEtOGI1ZS1mMWNlYTM5YTdiYzEifQ.GyKmtRTRF2lG98mDsB6e-kwmXj5uFXn_FXl6HGxJTOI' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common us concern.","maxScore":83,"minScore":28,"description":"Adult each citizen skill. Finish general high address make.\nAny back piece system system attorney. Or here hair teacher research body break. My sort stop bill.","estimatedTime":"7 weeks","previewFileId":"a717ca99-3d7c-4439-bf8d-376d03e36cad","createdByUserId":"f16c36d7-28af-4131-8b5e-f1cea39a7bc1"}'

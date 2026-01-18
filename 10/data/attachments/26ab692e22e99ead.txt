@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQyLjcyODkyMCIsInVzZXJfaWQiOiIzZWU1ODdhMC0zYmEwLTQwYWUtODAzOS0yOWQxZjc1ZDg4MWUifQ.R0ZGnA4GKuodxl6aC_02JNSR4o_PfFizIaS3Sj2oVs8' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base deal federal street up still real.","maxScore":81,"minScore":14,"description":"Dream group here ball. Evening worry direction adult produce seem those. At hot democratic best model garden.","estimatedTime":"8 weeks","previewFileId":"a3ef8838-f297-47ac-8690-7f48c6e0a5f1","createdByUserId":"3ee587a0-3ba0-40ae-8039-29d1f75d881e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE4VDE3OjE0OjQ1LjQwNzQ5NSIsInVzZXJfaWQiOiI0NWQ0Nzg2Zi04NDgzLTRiMjgtODY3NS04OTJhZTNmYzNlNWIifQ._J3KbiHqn1S1BVLNioTq0IdeRpsYdER6ogTqkmboWcg' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue practice traditional court.","courseId":"9888f5ad-7346-4370-98c5-d5fad5d91ffa","maxScore":75,"minScore":29,"orderIndex":30,"description":"Successful be interest magazine we people can view. Let seven evening service certainly into. Language turn whether investment.","estimatedTime":"6 weeks"}'
