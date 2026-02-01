@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTAxVDE0OjUxOjM1LjE5MDYxNiIsInVzZXJfaWQiOiI1N2JmZTkzMC04OTcyLTQ2NmYtYTU5ZC1kM2NhYTM2OGQ4ZDcifQ.79Z9RF--Mn2w1h9vs6r0mP16e3zHPKjugH9jgRftv-Q' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game science degree less concern statement.","maxScore":50,"minScore":7,"description":"Join street investment your tell budget scientist. Responsibility your eye your but world. Instead relationship name majority image feeling. Place too imagine model beyond should.","estimatedTime":"7 weeks","previewFileId":"f5bcc7d1-73f8-4544-a02d-a37c6ede7c2d","createdByUserId":"57bfe930-8972-466f-a59d-d3caa368d8d7"}'

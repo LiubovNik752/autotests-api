@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTAxVDE0OjUxOjM0LjA0NTIxNiIsInVzZXJfaWQiOiJjNmJmZjM4ZS0wMmVhLTQyYzItYmFmMy1mZDdlYmU4MDU4ZmQifQ.xXrf7UesYq8Arg2E8QHD5WYbl3EfvBD6yjP4VQAfHxo' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle decade government yet.","maxScore":91,"minScore":1,"description":"Stock grow reveal exist open. Though continue political win house establish amount base. Ball majority necessary while television about.","estimatedTime":"5 weeks","previewFileId":"842f0efc-3a0c-4ae9-a569-e72c2b5a1e7b","createdByUserId":"c6bff38e-02ea-42c2-baf3-fd7ebe8058fd"}'

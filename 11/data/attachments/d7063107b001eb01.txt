@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTAxVDE0OjUxOjM2LjM2MjUzNSIsInVzZXJfaWQiOiI0Y2VkNmRmYi0zOGU1LTQ1NTEtOGU4OS02MDU5ZTFkYWIwOTYifQ.lUc-dT77PsmJKkIpwQGPryf_hmO9SGg_dg013v5mXc8' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day national surface network anyone.","maxScore":75,"minScore":21,"description":"Bring soldier to deep city when. Run tax scientist share you affect leave.\nActivity town risk success. Particularly wrong move cut stay almost analysis. Or school put carry.","estimatedTime":"4 weeks","previewFileId":"6091f039-e867-4c1c-9c26-9ff3da29ba04","createdByUserId":"4ced6dfb-38e5-4551-8e89-6059e1dab096"}'

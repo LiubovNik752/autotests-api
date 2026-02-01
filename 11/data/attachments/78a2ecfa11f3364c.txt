@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0a4a526e-83a6-4c00-b4fa-7494f187b0ea' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTAxVDE0OjUxOjM0LjA0NTIxNiIsInVzZXJfaWQiOiJjNmJmZjM4ZS0wMmVhLTQyYzItYmFmMy1mZDdlYmU4MDU4ZmQifQ.xXrf7UesYq8Arg2E8QHD5WYbl3EfvBD6yjP4VQAfHxo' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Traditional require write difference so notice.","maxScore":88,"minScore":12,"description":"Thousand morning paper religious. Task often film least of present. Kid health hotel focus ability. Three event maybe factor surface.","estimatedTime":"1 weeks"}'

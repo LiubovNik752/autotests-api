@@ -1,0 +1,17 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/daa8a865-c5b1-44cc-b763-f4ea09e3b9b5
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/daa8a865-c5b1-44cc-b763-f4ea09e3b9b5
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:81 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Sea he sort.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "orderIndex" equals to 88
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to His bank family especially. Public need none town present into effort recently.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
